@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 300px;
+    height: auto;
+    background-color: darkgray;
+    padding: 15px;
+    margin: 100px auto;
+    box-shadow: 2px 10px 0.1px 0.2px gray;
+}
+.container{
+    border-radius: 5px;
+}
+.telaResult, .tela{
+    background-color: slategray;
+    overflow: hidden;
+}
+.telaResult{
+    height: 25px;
+    text-align: right;
+    font-size: 1.5em;
+    padding-right: 5px;
+}
+.tela{
+    height: 30px;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.4;
+    padding-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.btn{
+    display: block;
+    margin-top: 10px;
+}
+.botoes3, .botoes2, .botoes1 {
+	display: flex;
+}
+span{
+    flex: 1;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 59px;
+    width: 50px;
+    margin: 4px;
+    background-color: slategray;
+    border: 1px solid slategray;
+}
+span:hover{
+	background-color: white;
+    border: 1px solid darkgray;
+    box-shadow: inset 0px 1px 20px gray;
+    color: gray;
+    cursor: pointer;
+}
+
+.btn3 {
+	display: flex;
+}
+.v, .v2, .v22, .v1, .v11{
+	flex: 1;
+}
+.v22 span{
+    flex: 1;
+    background-color: orange;
+    border-color: orange;
+    box-shadow: inset 0px 1px 20px gray;
+}
+.v, .v22{
+	display: flex;
+}
+#btn-delete{
+    background-color: brown;
+    border: 1px solid brown;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
